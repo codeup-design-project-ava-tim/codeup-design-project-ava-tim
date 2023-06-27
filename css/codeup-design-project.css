@@ -1,8 +1,59 @@
 body {
     font-family: 'Abel', sans-serif;
+    background-color: #e6e6e6;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Anton', sans-serif;
 }
 
+
+
+
+.circle {
+    padding: 36px 16px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family:'Anton', sans-serif;
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 35px 0px;
+    border: 3px solid white;
+}
+.circle1 {
+    background-color: #e6563b;
+}
+.circle2 {
+   background-color: #eb9d3a;
+}
+
+.circle3 {
+  background-color: #7cb06c;
+}
+
+.circle4 {
+    background-color: #00aba9;
+}
+
+.circle-sm {
+    padding: 6px 0px;
+    font-size: 10px;
+    text-align: center;
+    color: black;
+    font-family:'Anton', sans-serif;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 35px 0px;
+}
+
+
+img {
+    max-width: 40%;
+    margin-top: 100px;
+    margin-left: 20px;
+}
