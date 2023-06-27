@@ -39,21 +39,23 @@ h1, h2, h3, h4, h5 {
 }
 
 .circle-sm {
-    padding: 6px 0px;
+    padding: 4px 0px;
     font-size: 10px;
     text-align: center;
     color: black;
     font-family:'Anton', sans-serif;
-    height: 17px;
-    width: 17px;
+    height: 22px;
+    width: 22px;
     border-radius: 50%;
     display: inline-block;
     margin: 35px 0px;
 }
 
 
-img {
+.img-lg {
     max-width: 40%;
     margin-top: 100px;
     margin-left: 20px;
 }
+
+.img-sm {}
