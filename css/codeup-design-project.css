@@ -9,10 +9,11 @@ h1, h2, h3, h4, h5 {
 
 h3 {
     font-size: 1.85rem;
+    margin-bottom: 50px;
 }
 
 .circle {
-    padding: 36px 16px;
+    padding: 31px 16px;
     font-size: 20px;
     text-align: center;
     color: white;
@@ -22,7 +23,7 @@ h3 {
     border-radius: 50%;
     display: inline-block;
     margin: 35px 0;
-    border: 3px solid white;
+    border: 7px solid white;
 }
 .circle1 {
     background-color: #e6563b;
@@ -59,7 +60,8 @@ h3 {
 }
 
 .img-sm {
-    aspect-ratio: 1/1;
+    width: 70px;
+    height: 70px;
 }
 
 .post-thumbnail {
@@ -68,3 +70,10 @@ h3 {
     object-fit: cover;
 }
 
+.mini-headers {
+    margin: 30px;
+}
+
+.image-gap {
+    margin: 15px;
+}
