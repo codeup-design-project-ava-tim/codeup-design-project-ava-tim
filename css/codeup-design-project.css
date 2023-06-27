@@ -49,7 +49,6 @@ h3 {
     width: 22px;
     border-radius: 50%;
     display: inline-block;
-    margin: 35px 0;
 }
 
 
@@ -60,7 +59,12 @@ h3 {
 }
 
 .img-sm {
-    height: auto;
+    aspect-ratio: 1/1;
 }
 
+.post-thumbnail {
+    width: 100%;
+    aspect-ratio: 480/320;
+    object-fit: cover;
+}
 
