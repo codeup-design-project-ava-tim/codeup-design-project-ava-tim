@@ -7,8 +7,9 @@ h1, h2, h3, h4, h5 {
     font-family: 'Anton', sans-serif;
 }
 
-
-
+h3 {
+    font-size: 1.85rem;
+}
 
 .circle {
     padding: 36px 16px;
@@ -20,7 +21,7 @@ h1, h2, h3, h4, h5 {
     width: 105px;
     border-radius: 50%;
     display: inline-block;
-    margin: 35px 0px;
+    margin: 35px 0;
     border: 3px solid white;
 }
 .circle1 {
@@ -39,7 +40,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .circle-sm {
-    padding: 4px 0px;
+    padding: 4px 0;
     font-size: 10px;
     text-align: center;
     color: black;
@@ -48,7 +49,7 @@ h1, h2, h3, h4, h5 {
     width: 22px;
     border-radius: 50%;
     display: inline-block;
-    margin: 35px 0px;
+    margin: 35px 0;
 }
 
 
@@ -58,4 +59,8 @@ h1, h2, h3, h4, h5 {
     margin-left: 20px;
 }
 
-.img-sm {}
+.img-sm {
+    height: auto;
+}
+
+
