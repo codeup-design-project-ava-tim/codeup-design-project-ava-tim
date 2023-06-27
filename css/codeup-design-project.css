@@ -1,6 +1,6 @@
 body {
     font-family: 'Abel', sans-serif;
-    background-color: #e6e6e6;
+    background-color: #f0f0f0;
 }
 
 h1, h2, h3, h4, h5 {
@@ -12,17 +12,24 @@ h3 {
     margin-bottom: 50px;
 }
 
+.logo {
+    width: 50px;
+}
+.circles {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 .circle {
-    padding: 31px 16px;
+    padding: 31px 0px;
     font-size: 20px;
     text-align: center;
     color: white;
     font-family:'Anton', sans-serif;
-    height: 105px;
-    width: 105px;
+    flex: 0 0 105px;
+    aspect-ratio: 1/1;
     border-radius: 50%;
     display: inline-block;
-    margin: 35px 0;
     border: 7px solid white;
 }
 .circle1 {
@@ -54,14 +61,19 @@ h3 {
 
 
 .img-lg {
-    max-width: 40%;
-    margin-top: 100px;
-    margin-left: 20px;
+  margin-top: 100px;
+}
+
+.img-wrapper {
+    flex: 0 0 65px;
 }
 
 .img-sm {
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
+    object-fit: fill;
+    padding: unset;
+    /*margin-left: 50px;*/
 }
 
 .post-thumbnail {
@@ -71,9 +83,16 @@ h3 {
 }
 
 .mini-headers {
-    margin: 30px;
+    margin: 40px 30px;
 }
 
 .image-gap {
     margin: 15px;
 }
+
+@media screen and (max-width: 550px) {
+    .circles {
+        max-width: 300px;
+    }
+}
+
