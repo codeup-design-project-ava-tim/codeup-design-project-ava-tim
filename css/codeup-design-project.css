@@ -72,7 +72,7 @@ h3 {
 
 
 .img-lg {
-  margin-top: 100px;
+  margin-top: 85px;
 }
 
 .img-wrapper {
@@ -104,6 +104,9 @@ h3 {
 @media screen and (max-width: 550px) {
     .circles {
         max-width: 300px;
+    }
+    .img {
+        padding-top: 85px;
     }
 }
 
